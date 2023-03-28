@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+}
+section {
+    padding: 20px;
+}
+.hero_container {
+    display: flex;
+    flex-direction: column;
+}
+.hero_photo {
+    max-width: 400px;
+    align-self: center;
+}
+.hero_header {
+    margin-bottom: 16px;
+}
+.hero_text {
+    margin: 0;
+}
+.card {
+    width: 175px;
+    font-size: 12px;
+}
+.card_image {
+    width: 100%;
+    border-radius: 9px;
+}
+.card_stats {
+    display: flex;
+    align-items: center;
+}
+.card_star {
+    height: 14px;
+}
+.gray {
+    color: #918e9b;
+}
+.bold {
+    font-weight: bold;
+}
